@@ -1,7 +1,7 @@
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
         int n = words.length;
-        int[] vowelCounts = new int[n + 1]; // Count of words that start and end with a vowel up to index i
+        int[] vowelCounts = new int[n + 1]; 
         int[] result = new int[queries.length];
 
         for (int i = 1; i <= n; i++) {
