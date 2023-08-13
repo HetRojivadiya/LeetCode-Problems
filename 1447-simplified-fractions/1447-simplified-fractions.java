@@ -18,8 +18,7 @@ class Solution {
                         if(i<j){
                         l.add(i+"/"+j);
                         }
-                    }
-                     
+                    }   
                 }
             }
             i++;
