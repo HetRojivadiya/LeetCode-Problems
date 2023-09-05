@@ -1,30 +1,28 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public int majorityElement(int[] nums) {
-        
-        HashMap<Integer,Integer> m = new HashMap<>();
-        
-        for(int i=0;i<nums.length;i++)
-        {
-            if(m.containsKey(nums[i]))
-            {
-                m.put(nums[i],m.get(nums[i])+1);
-            }else{
-                m.put(nums[i],1);
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+        int maxOccurrences = 0;
+        int majorityElement = 0;
+
+
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            int num = entry.getKey();
+            int count = entry.getValue();
+
+            if (count > maxOccurrences) {
+                maxOccurrences = count;
+                majorityElement = num;
             }
         }
-        Set<Integer> keys=m.keySet();
-        int max = 0;
-        int keyValue = 0;
-        for (Integer key : keys){
-            if(m.get(key)>max)
-            {
-                max = m.get(key);
-                keyValue = key;
-                
-            }
-        }
-        
-        return keyValue;
-        
+
+        return majorityElement;
     }
 }
