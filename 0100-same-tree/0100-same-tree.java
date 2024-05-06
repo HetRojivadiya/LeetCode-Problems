@@ -22,8 +22,7 @@ class Solution {
         if (p == null || q == null || p.val != q.val) {
             return false;
         }
-        
-        // Recursively check left and right subtrees
+    
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
