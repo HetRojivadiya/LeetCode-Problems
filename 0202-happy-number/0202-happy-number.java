@@ -2,10 +2,10 @@ class Solution {
     public boolean isHappy(int n) {
         
           int iteration = 10;  // Optional limit to prevent infinite loops in testing
-        Set<Integer> seenNumbers = new HashSet<>();
+      
         
-        while (n != 1 && !seenNumbers.contains(n)) {
-            seenNumbers.add(n);
+        while (n != 1 ) {
+            
             n = getSumOfSquares(n);
             iteration--;
             if (iteration == 0) {
