@@ -1,9 +1,6 @@
 class Solution {
     public int titleToNumber(String columnTitle) {
         
-       
-        System.out.print((int)'A');
-        
         int sum = 0;
         for(int i=0;i<columnTitle.length();i++)
         {
@@ -13,7 +10,6 @@ class Solution {
                 sum=sum*26;
             }
         }
-        
         return sum;
         
     }
