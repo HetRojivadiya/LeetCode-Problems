@@ -20,9 +20,9 @@ class Solution {
             if(m.containsKey(c))
             {
                  int temp = m.get(c);
-                if(temp==0)
+                if(temp==1)
                 {
-                    return false;
+                    m.remove(c);
                 }
                 m.replace(c,temp-1);
             }else{
