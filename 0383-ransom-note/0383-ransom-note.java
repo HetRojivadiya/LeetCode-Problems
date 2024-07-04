@@ -23,8 +23,10 @@ class Solution {
                 if(temp==1)
                 {
                     m.remove(c);
+                }else{
+                    m.replace(c,temp-1);
                 }
-                m.replace(c,temp-1);
+                
             }else{
                 return false;
             }
