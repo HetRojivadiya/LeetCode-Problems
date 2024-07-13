@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     public int removeDuplicates(int[] nums) {
         
-        Map<Integer,Integer> m = new TreeMap<>();
+        Map<Integer,Integer> m = new LinkedHashMap<>();
         
         for(int n : nums)
         {
