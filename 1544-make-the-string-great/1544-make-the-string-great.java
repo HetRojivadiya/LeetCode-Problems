@@ -9,17 +9,17 @@ class Solution {
             {
                 if(i<s.length()-1)
                 {
-                    if((Character.isUpperCase(s.charAt(i)) == Character.isLowerCase(s.charAt(i+1)) ||
-                        Character.isUpperCase(s.charAt(i+1)) == Character.isLowerCase(s.charAt(i))) && Character.toLowerCase(s.charAt(i))==Character.toLowerCase(s.charAt(i+1)))
+                    if(Character.toLowerCase(s.charAt(i))==Character.toLowerCase(s.charAt(i+1)))
                     {
-                        System.out.print("h");
-                        
-                        flag=1;
-                        i=i+1;
-                        continue;
+                        if((Character.isUpperCase(s.charAt(i)) == Character.isLowerCase(s.charAt(i+1)) ||
+                        Character.isUpperCase(s.charAt(i+1)) == Character.isLowerCase(s.charAt(i))))
+                        {       
+                            flag=1;
+                            i=i+1;
+                            continue;
+                        }   
                     }
                 }
-               
                 temp+=String.valueOf(s.charAt(i));
             }
             
