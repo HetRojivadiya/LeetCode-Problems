@@ -16,19 +16,16 @@ class Solution {
             if(m.containsKey(c1))
             {
                 char c = m.get(c1);
-                
                 if(c!=c2)
                 {
                     return false;
                 }
             }
             else{
-                
                 if(set.contains(c2))
                 {
                     return false;
                 }
-                
                 m.put(c1,c2);
                 set.add(c2);
             }
