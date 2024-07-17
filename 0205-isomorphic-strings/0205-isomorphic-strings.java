@@ -1,32 +1,37 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         
-       int[] indexS = new int[200]; 
-        int[] indexT = new int[200]; 
-        
-      
-        int len = s.length();
-        
-      
-        if(len != t.length()) {
+        if(s.length()!=t.length())
+        {
             return false;
         }
+        HashMap<Character,Character> m = new LinkedHashMap<>();
+        HashSet<Character> set = new HashSet<>();
         
-        
-        for(int i = 0; i < len; i++) {
+        for(int i=0;i<s.length();i++)
+        {
+            char c1 = s.charAt(i);
+            char c2 = t.charAt(i);
             
-            System.out.println(indexS[s.charAt(i)]+ " "+ indexT[s.charAt(i)]);
-          
-            if(indexS[s.charAt(i)] != indexT[t.charAt(i)]) {
-                return false; 
+            if(m.containsKey(c1))
+            {
+                char c = m.get(c1);
+                if(c!=c2)
+                {
+                    return false;
+                }
+            }
+            else{
+                if(set.contains(c2))
+                {
+                    return false;
+                }
+                m.put(c1,c2);
+                set.add(c2);
             }
             
-          
-            indexS[s.charAt(i)] = i + 1; 
-            indexT[t.charAt(i)] = i + 1; 
         }
-        
-        
+    
         return true;
         
     }
