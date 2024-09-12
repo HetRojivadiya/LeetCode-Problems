@@ -21,13 +21,8 @@ class Solution {
                 break;
             }
         }
-        if(flag==false)
-        {
-            count++;
-        }
+       count += (!flag ? 1 : 0);
      }
-
      return count;
-
     }
 }
