@@ -10,14 +10,15 @@ class Solution {
 
      int count=0;
 
-     for(int i=0;i<words.length;i++)
+     for(int i=0;i<words.length;i++) //o(n)  *  o(k)  = o(n*k)
      {
         boolean flag=false;
-        for(int j=0;j<words[i].length();j++)
+        for(int j=0;j<words[i].length();j++) //o(k)
         {
-            if(!hs.contains(words[i].charAt(j)))
+            if(!hs.contains(words[i].charAt(j))) //o(1)
             {
                 flag=true;
+                break;
             }
         }
         if(flag==false)
