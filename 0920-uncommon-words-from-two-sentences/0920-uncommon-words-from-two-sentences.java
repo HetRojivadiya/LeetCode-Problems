@@ -1,36 +1,26 @@
 class Solution {
     public String[] uncommonFromSentences(String s1, String s2) {
         
-        HashMap<String,Integer> hm = new HashMap<>();
+        HashSet<String> uc = new HashSet<>();
+        HashSet<String> cm = new HashSet<>();
         int count = 0;
-
         String [] s  = (s1 + " " + s2).split(" ");
-       
 
         for(int i=0;i<s.length;i++)
         {
-            hm.put(s[i],hm.getOrDefault(s[i],0)+1);
-
-            if(hm.get(s[i])==1)
+           if(!cm.contains(s[i]))
+           {
+            if(!uc.contains(s[i]))
             {
-                count++;
-            }else if(hm.get(s[i])==2)
-            {
-                count--;
+                uc.add(s[i]);
+            }else{
+                uc.remove(s[i]);
+                cm.add(s[i]);
             }
+           }
         }
 
-
-        String result[] = new String[count];
-        int index = 0;
-        for(Map.Entry<String,Integer> entry : hm.entrySet())
-        {
-            if(entry.getValue()==1)
-            {
-                result[index] = entry.getKey();
-                index++;
-            }
-        }
+        String result[] = uc.toArray(new String[uc.size()]);
         
         return result;
     }
