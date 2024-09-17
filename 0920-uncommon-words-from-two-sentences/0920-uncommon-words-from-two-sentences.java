@@ -4,37 +4,20 @@ class Solution {
         HashMap<String,Integer> hm = new HashMap<>();
         int count = 0;
 
-        String [] s_1  = s1.split(" ");
-        String [] s_2  = s2.split(" ");
+        String [] s  = (s1 + " " + s2).split(" ");
+       
 
-        for(int i=0;i<(s_1.length>s_2.length?s_1.length:s_2.length);i++)
+        for(int i=0;i<s.length;i++)
         {
-            if(s_1.length>i)
+            hm.put(s[i],hm.getOrDefault(s[i],0)+1);
+
+            if(hm.get(s[i])==1)
             {
-                hm.put(s_1[i],hm.getOrDefault(s_1[i],0)+1);
-
-                if(hm.get(s_1[i])==1)
-                {
-                    count++;
-                }else if(hm.get(s_1[i])==2)
-                {
-                    count--;
-                }
-
-            }
-
-            if(s_2.length>i)
+                count++;
+            }else if(hm.get(s[i])==2)
             {
-                hm.put(s_2[i],hm.getOrDefault(s_2[i],0)+1);
-        
-                if(hm.get(s_2[i])==1)
-                {
-                    count++;
-                }else if(hm.get(s_2[i])==2){
-                    count--;
-                }
+                count--;
             }
-
         }
 
 
