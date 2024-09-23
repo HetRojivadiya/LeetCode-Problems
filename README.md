@@ -24,4 +24,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
