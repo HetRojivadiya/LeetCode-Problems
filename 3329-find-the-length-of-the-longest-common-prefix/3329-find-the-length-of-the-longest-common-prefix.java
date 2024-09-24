@@ -6,7 +6,6 @@ class Solution {
         for(int i=0;i<arr1.length;i++)
         {
             String str = String.valueOf(arr1[i]);
-            
             for(int j=0;j<str.length();j++)
             {
                 String temp="";
@@ -15,25 +14,21 @@ class Solution {
                     temp+=String.valueOf(str.charAt(k));
                 }
                 if(hs.add(Integer.parseInt(temp))){
-
-                System.out.print(temp+" ");
+                    System.out.print(temp+" ");
                 }
             }
-          
         }
 
         for(int i=0;i<arr2.length;i++)
         {
             String str = String.valueOf(arr2[i]);
-            
-            for(int j=0;j<str.length();j++)
+            for(int j=lcp;j<str.length();j++)
             {
                 String temp="";
                 for(int k=0;k<=j;k++)
                 {
                     temp+=String.valueOf(str.charAt(k));
                 }
-                //System.out.print(temp+" ");
 
                 if(hs.contains(Integer.parseInt(temp)))
                 {
