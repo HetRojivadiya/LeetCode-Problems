@@ -4,12 +4,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
@@ -26,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Linked List
 |  |
