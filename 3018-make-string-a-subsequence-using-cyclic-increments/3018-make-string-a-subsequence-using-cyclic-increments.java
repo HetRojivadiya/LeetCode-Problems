@@ -1,11 +1,6 @@
 class Solution {
     public boolean canMakeSubsequence(String str1, String str2) {
 
-        if(str1.length()<str2.length())
-        {
-            return false;
-        }
-
         int index=0;
 
         for(int i=0;i<str1.length();i++)
