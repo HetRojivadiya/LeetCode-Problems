@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2232-adding-spaces-to-a-string](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
 |  |
@@ -62,4 +64,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2232-adding-spaces-to-a-string](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
+## Binary Search
+|  |
+| ------- |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+## Greedy
+|  |
+| ------- |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+## Sorting
+|  |
+| ------- |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 <!---LeetCode Topics End-->
