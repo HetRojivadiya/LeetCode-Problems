@@ -1,55 +1,34 @@
 class Solution {
     public int maximumLength(String s) {
-
-        int max = s.length()-2;
-
-        for(int i=max;i>0;i--)
-        {
-            HashMap<String,Integer> hm = new HashMap<>();
-        
-            for(int j=0;j<s.length()-max+1;j++)
-            {
-                String str = "";
-                boolean flag = true;
-                char c = s.charAt(j);
-
-                for(int k=j;k<j+max;k++)
-                {
-                    if(s.charAt(k)!=c)
-                    {
-                        flag=false;
-                        break;
-                    }
-                    str+=String.valueOf(s.charAt(k));
-                    System.out.print(s.charAt(k));
-                }
-
-                if(flag)
-                {
-                    if(hm.containsKey(str))
-                {
-                    int temp = hm.get(str);
-
-                   
-
-                    if(temp+1==3)
-                    {
-                         System.out.print(str);
-                        return str.length();
-                    }
-
-                    hm.replace(str,temp+1);
-                }else{
-                    hm.put(str,1);
-                }
-                System.out.println();
-
-                }
-                
-                
+        int[] f1=new int[26];
+        int[] f2=new int[26];
+        int curr=1;
+        int ans=-1;
+        char[] a=s.toCharArray();
+        f2[(int)(a[0]-'a')]=1;
+        f1[(int)(a[0]-'a')]=1;
+        int n=s.length();
+        for(int i=1;i<n;i++){
+            if(a[i]==a[i-1]){
+                curr++;
+            }else{
+                curr=1;
             }
-            max--;
+            int g=(int)(a[i]-'a');
+            if(curr>f1[g]){
+                f1[g]=curr;
+                ans=Math.max(ans,curr-2);
+                if(f2[g]>=2)ans=Math.max(curr-1,ans);
+                f2[g]=1;
+            }
+            else if(curr==f1[g]-1){
+                ans=Math.max(curr,ans);
+                ans=Math.max(ans,curr-2);
+            }else if(curr==f1[g]){
+                f2[g]++;
+                if(f2[g]>=3)ans=Math.max(curr,ans);
+            }
         }
-        return -1;
+        return ans<=0?-1:ans;
     }
 }
