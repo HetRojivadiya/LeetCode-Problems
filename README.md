@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
+| [0952-word-subsets](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -38,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2232-adding-spaces-to-a-string](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
