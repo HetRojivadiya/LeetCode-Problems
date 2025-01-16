@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0029-divide-two-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2509-minimize-xor](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2509-minimize-xor) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Counting
 |  |
@@ -202,4 +204,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Brainteaser
+|  |
+| ------- |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 <!---LeetCode Topics End-->
