@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0206-reverse-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0029-divide-two-integers) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Trie
 |  |
