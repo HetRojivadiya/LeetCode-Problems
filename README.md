@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2048-next-greater-numerically-balanced-number](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2048-next-greater-numerically-balanced-number) |
 | [2300-construct-string-with-repeat-limit](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2048-next-greater-numerically-balanced-number](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2048-next-greater-numerically-balanced-number) |
 | [2300-construct-string-with-repeat-limit](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/0029-divide-two-integers) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [2048-next-greater-numerically-balanced-number](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2048-next-greater-numerically-balanced-number) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Trie
 |  |
@@ -217,4 +220,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Backtracking
+|  |
+| ------- |
+| [2048-next-greater-numerically-balanced-number](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2048-next-greater-numerically-balanced-number) |
+## Enumeration
+|  |
+| ------- |
+| [2048-next-greater-numerically-balanced-number](https://github.com/HetRojivadiya/LeetCode-Problems/tree/master/2048-next-greater-numerically-balanced-number) |
 <!---LeetCode Topics End-->
