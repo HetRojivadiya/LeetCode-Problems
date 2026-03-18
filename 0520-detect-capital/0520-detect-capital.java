@@ -1,5 +1,6 @@
 class Solution {
     public boolean detectCapitalUse(String word) {
+
         boolean cap = true;
         boolean small = true;
         boolean pascal = true;
@@ -17,7 +18,7 @@ class Solution {
                 }
             }
 
-            if(pascal){
+            if(pascal && !small){
                 if(i==0){
                     if(!isCapital(word.charAt(i))){
                         pascal= false;
