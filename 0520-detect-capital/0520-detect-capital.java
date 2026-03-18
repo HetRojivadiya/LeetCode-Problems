@@ -6,29 +6,37 @@ class Solution {
 
         for(int i=0;i<word.length();i++){
             if(cap){
-                if(!(word.charAt(i)>='A' && word.charAt(i)<='Z')){
+                if(!isCapital(word.charAt(i))){
                     cap=false;
                 }
             }
             
             if(small){
-                if(!(word.charAt(i)>='a' && word.charAt(i)<='z')){
+                if(!isSmall(word.charAt(i))){
                     small=false;
                 }
             }
 
             if(pascal){
                 if(i==0){
-                    if(!(word.charAt(i)>='A' && word.charAt(i)<='Z')){
+                    if(!isCapital(word.charAt(i))){
                         pascal= false;
                     }
                 }else{
-                    if(!(word.charAt(i)>='a' && word.charAt(i)<='z')){
+                    if(!isSmall(word.charAt(i))){
                         pascal=false;
                     }
                 }
             }
         }
         return (cap || small || pascal);
+    }
+
+    private boolean isCapital(char c){
+        return c >= 'A' && c <= 'Z';
+    }
+
+    private boolean isSmall(char c){
+        return c >= 'a' && c <= 'z';
     }
 }
